@@ -9,9 +9,9 @@ import (
 	"strings"
 
 	"github.com/aws/aws-lambda-go/lambda"
+	_ "github.com/duckdb/duckdb-go/v2"
 	"github.com/jedib0t/go-pretty/v6/table"
 	"github.com/jedib0t/go-pretty/v6/text"
-	_ "github.com/marcboeker/go-duckdb"
 )
 
 type InputEvent struct {
